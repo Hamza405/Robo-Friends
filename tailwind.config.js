@@ -7,6 +7,9 @@ module.exports = {
   purge: [],
   theme: {
     extend: {},
+    fontFamily: {
+      heading: ["Square Peg", "cursive"],
+    },
   },
   variants: {},
   plugins: [],
