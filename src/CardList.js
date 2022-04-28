@@ -1,11 +1,10 @@
 import React from "react";
-import { robots } from "./robot";
 import Card from "./Card";
 
-const CardList = () => {
+const CardList = ({ robots }) => {
   return (
     <div className="flex flex-wrap p-8">
-      {robots.map((robot, i) => {
+      {robots.map((robot) => {
         return <Card key={robot.id} robot={robot} />;
       })}
     </div>
